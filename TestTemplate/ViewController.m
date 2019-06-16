@@ -24,6 +24,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.navigationItem.title = @"保存图片到相册";
+    
     self.view.backgroundColor = [UIColor whiteColor];
     
     [self photoAuthorization];
